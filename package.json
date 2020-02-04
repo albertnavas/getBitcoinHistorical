@@ -1,0 +1,19 @@
+{
+  "name": "gethistoricaldata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "debug": "node --inspect index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.20.8",
+    "node-fetch": "^2.6.0",
+    "pg": "^7.18.1",
+    "promise-throttle": "^1.0.1"
+  }
+}
